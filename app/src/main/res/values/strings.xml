@@ -11,6 +11,7 @@
     <string name="museum_three_name">Amon Carter Museum of American Art</string>
     <string name="museum_four_name">American Airlines CR Smith Museum</string>
     <string name="museum_four_addy">4601 Highway 360</string>
+
     <string name="historical_one_addy">2501 Rodeo Plaza</string>
     <string name="historical_one_name">Fort Worth Stockyards</string>
     <string name="historical_two_name">Thistle Hill Mansion</string>
@@ -20,6 +21,26 @@
     <string name="historical_four_name">Hell\'s Half Acre</string>
     <string name="historical_four_addy">12th and Houston</string>
 
+    <string name="restaurant_one_name">Lonesome Dove Western Bistro</string>
+    <string name="restaurant_one_addy">2406 North Main Street</string>
+    <string name="restaurant_two_name">Black Rooster Cafe and Bakery</string>
+    <string name="restaurant_two_addy">910 Houston St.</string>
+    <string name="restaurant_three_name">Del Frisco\'s Double Eagle</string>
+    <string name="restaurant_three_addy">812 Main St.</string>
+    <string name="restaurant_four_name">Bird Cafe</string>
+    <string name="restaurant_four_addy">155 E 4th St</string>
+
+    <string name="parks_one_name">Trinity Park</string>
+    <string name="parks_one_addy">2401 University Dr</string>
+    <string name="parks_two_name">Fort Worth Water Gardens</string>
+    <string name="parks_two_addy">1502 Commerce St</string>
+    <string name="parks_three_name">Bedford Boys Ranch</string>
+    <string name="parks_three_addy">2801 Forest Ridge Dr</string>
+    <string name="parks_four_name">Fort Worth Botanical Gardens</string>
+    <string name="parks_four_addy">3220 Botanic Garden Blvd</string>
+
     <string name="category_museums">Museums</string>
     <string name="category_historical">Historical</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_parks">Parks</string>
 </resources>

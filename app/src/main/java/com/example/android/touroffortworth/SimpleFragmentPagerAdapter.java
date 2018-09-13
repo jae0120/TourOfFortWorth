@@ -19,14 +19,18 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0)
-        return new MuseumFragment();
-        else return new HistoricalFragment();
+        switch (position) {
+            case 0: return new MuseumFragment();
+            case 1: return new HistoricalFragment();
+            case 2: return new RestaurantFragment();
+            case 3: return new RestaurantFragment();
+            default: return null;
+        }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
     @Override
@@ -37,11 +41,12 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_museums);
-        }
-        else {
-            return mContext.getString(R.string.category_historical);
+        switch (position) {
+            case 0: return mContext.getString(R.string.category_museums);
+            case 1: return mContext.getString(R.string.category_historical);
+            case 2: return mContext.getString(R.string.category_restaurant);
+            case 3: return mContext.getString(R.string.category_parks);
+            default: return null;
         }
     }
 }
