@@ -5,6 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 
+/*
+This program is created solely for learning purposes, completed for Udacity's Android Basics Nanodegree Program.
+Resources Used:
+Sample Code provided in the Android Basics Nanodegree Program
+Museum Image https://www.shareicon.net/museum-monuments-theatre-theater-temple-792736
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
-        SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(getSupportFragmentManager());
+        SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(this, getSupportFragmentManager());
 
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);

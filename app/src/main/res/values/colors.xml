@@ -3,4 +3,5 @@
     <color name="colorPrimary">#e7590d</color>
     <color name="colorPrimaryDark">#bc2406</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="museumCategory">#FF5722</color>
 </resources>

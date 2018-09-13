@@ -3,4 +3,23 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="museum_one_name">Kimbell Art Museum</string>
+    <string name="museum_one_addy">3333 Camp Bowie Blvd</string>
+    <string name="museum_two_name">Fort Worth Museum of Science and History</string>
+    <string name="museum_two_addy">1600 Gendy Street</string>
+    <string name="museum_three_addy">3501 Camp Bowie Blvd</string>
+    <string name="museum_three_name">Amon Carter Museum of American Art</string>
+    <string name="museum_four_name">American Airlines CR Smith Museum</string>
+    <string name="museum_four_addy">4601 Highway 360</string>
+    <string name="historical_one_addy">2501 Rodeo Plaza</string>
+    <string name="historical_one_name">Fort Worth Stockyards</string>
+    <string name="historical_two_name">Thistle Hill Mansion</string>
+    <string name="historical_three_name">Ball-Eddleman-McFarland House</string>
+    <string name="historical_three_addy">1110 Penn Street</string>
+    <string name="historical_two_addy">1509 Pennsylvania Avenue</string>
+    <string name="historical_four_name">Hell\'s Half Acre</string>
+    <string name="historical_four_addy">12th and Houston</string>
+
+    <string name="category_museums">Museums</string>
+    <string name="category_historical">Historical</string>
 </resources>
