@@ -23,7 +23,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             case 0: return new MuseumFragment();
             case 1: return new HistoricalFragment();
             case 2: return new RestaurantFragment();
-            case 3: return new RestaurantFragment();
+            case 3: return new ParksFragment();
             default: return null;
         }
     }
